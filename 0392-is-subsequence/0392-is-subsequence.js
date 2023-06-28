@@ -4,9 +4,6 @@
  * @return {boolean}
  */
 var isSubsequence = function(s, t) {
-  if (t.includes(s)) {
-    return true
-  }
   let tArray = Array.from(t).reverse()
   let i = s.length - 1
   while (i >= 0) {
